@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de trabajo con frames</title>
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  </style>
+</head>
+<body>
+  <h1>Frames</h1>
+  <p>Selecciona un color en el desplegable de la izquierda, un frame que actualizar en el desplegable del medio y haz clic sobre el botón "Cambiar color!"</p>
+  <div class="grid">
+    <iframe src="frame-izq.html" frameborder="0"></iframe>
+    <iframe src="frame-medio.html" frameborder="0"></iframe>
+    <iframe src="frame-der.html" frameborder="0"></iframe>
+  </div>
+</body>
+</html>
