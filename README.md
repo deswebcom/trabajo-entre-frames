@@ -6,3 +6,4 @@ En este ejemplo hacemos un script que accede desde un frame a otro frame, para o
 
 Ojo: el trabajo con frames y Javascript sólo puede realizarse entre frames del mismo domino.
 
+Ver el ejemplo en marcha en [este enlace](https://deswebcom.github.io/trabajo-entre-frames/).
